@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+n=input('Enter a number: ')
+
+for i in range(1,11):
+	print str(n)+' x '+str(i)+' = '+str(n*i)
